@@ -1,4 +1,5 @@
 {
+    "homepage": "http://bann2310.github.io/CS338-FinalProject",
     "name": "cs338",
     "version": "0.1.0",
     "private": true,
@@ -25,6 +26,7 @@
     "devDependencies": {
         "babel-plugin-module-resolver": "^5.0.2",
         "customize-cra": "^1.0.0",
+        "gh-pages": "^6.1.1",
         "react-app-rewired": "^2.2.1",
         "sass": "^1.77.1"
     },
@@ -32,7 +34,9 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-app-rewired eject"
+        "eject": "react-app-rewired eject",
+        "predeploy": "npm run build",
+        "deloy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
