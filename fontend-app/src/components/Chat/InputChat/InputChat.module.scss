@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.send {
+    width: 100%;
+    height: calc(100% - 10px);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding-left: 12px;
+    display: flex;
+    border-radius: 92px;
+
+    input {
+        flex: 1;
+        background-color: transparent;
+        font-size: 1.6rem;
+        border: none;
+        outline: none;
+    }
+
+    input:not(:placeholder-shown) ~ .send-btn {
+        visibility: visible;
+    }
+
+    &:focus-within {
+        border: 1px solid #9a9a9a;
+    }
+}
+
+.send-btn {
+    height: 100%;
+    width: 70px;
+    border: none;
+    border-radius: 92px;
+    font-size: 2rem;
+    color: var(--primary);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    visibility: hidden;
+    &:hover {
+        cursor: pointer;
+        background-color: #ededed;
+    }
+    &:active {
+        background-color: #e7e7e7;
+    }
+}
