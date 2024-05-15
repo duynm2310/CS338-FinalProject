@@ -2,6 +2,7 @@ import classNames from 'classnames/bind';
 import styles from '~/App.module.scss';
 import Header from '~/components/Header';
 import Chat, { ChatProvider } from '~/components/Chat';
+import ImageUpload from '~/components/Chat/ImageUpload';
 
 const cx = classNames.bind(styles);
 
@@ -10,12 +11,14 @@ function App() {
         <div className="App">
             <Header></Header>
             <div className={cx('container')}>
-                <div className={cx('chat')}>
-                    <ChatProvider>
+                <ChatProvider>
+                    <div className={cx('chat')}>
                         <Chat />
-                    </ChatProvider>
-                </div>
-                <div className={cx('image')}>Image</div>
+                    </div>
+                    <div className={cx('image')}>
+                        <ImageUpload />
+                    </div>
+                </ChatProvider>
             </div>
         </div>
     );

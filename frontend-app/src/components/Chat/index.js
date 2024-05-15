@@ -16,6 +16,10 @@ function Chat() {
         ulRef.current.scrollTo(0, ulRef.current.scrollHeight);
     }, [messages]);
 
+    const handleOnLoad = () => {
+        ulRef.current.scrollTo(0, ulRef.current.scrollHeight);
+    };
+
     return (
         <div className={cx('container')}>
             <div className={cx('viewchat')}>
@@ -23,7 +27,8 @@ function Chat() {
                     {messages.map((message, index) => {
                         return (
                             <li key={index} className={cx('chat', message.css)}>
-                                <p>{message.content}</p>
+                                {message.content && <p>{message.content}</p>}
+                                {message.img && <img src={message.img} onLoad={handleOnLoad} />}
                             </li>
                         );
                     })}
