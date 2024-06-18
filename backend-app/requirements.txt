@@ -1,0 +1,8 @@
+flask
+PIL
+efficientnet_pytorch
+cv2
+mediapipe
+torch
+torchvision
+numpy

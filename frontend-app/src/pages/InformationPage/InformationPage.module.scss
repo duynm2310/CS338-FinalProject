@@ -1,0 +1,117 @@
+/* InformationPage.module.scss */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.tittle--main {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.back {
+    font-size: 1em;
+    color: var(--primary);
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+}
+
+.intro,
+.detail {
+    p {
+        text-align: justify;
+    }
+    margin-bottom: 40px;
+}
+
+.subtittle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subsubtittle {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #777;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.school {
+    display: flex;
+    .content__school {
+        margin-left: 20px;
+        div:first-child {
+            font-weight: 800;
+        }
+    }
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+
+    .menber {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+.content {
+    text-align: center;
+}
+.name {
+    font-weight: 600;
+}
+
+.teacher,
+.team {
+    margin-bottom: 20px;
+}
+.line {
+    height: 1px;
+    width: 600px;
+    background-color: #c5c5c5;
+    margin-bottom: 20px;
+}

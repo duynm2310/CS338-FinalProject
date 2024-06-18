@@ -1,0 +1,34 @@
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.game {
+    width: 70%;
+    height: 640px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 60px;
+        left: 100%;
+        height: 650px;
+        width: 1px;
+        background-color: #ccc;
+    }
+}
+
+.camera {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+}
+
+.complete {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+}

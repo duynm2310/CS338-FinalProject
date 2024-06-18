@@ -1,26 +1,35 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from '~/App.module.scss';
-import Header from '~/components/Header';
-import Chat, { ChatProvider } from '~/components/Chat';
-import ImageUpload from '~/components/Chat/ImageUpload';
+import publishRoutes from '~/routes';
+import { DefaultLayout } from '~/components/Layout';
+import { Fragment } from 'react';
 
 const cx = classNames.bind(styles);
 
 function App() {
     return (
-        <div className="App">
-            <Header></Header>
-            <div className={cx('container')}>
-                <ChatProvider>
-                    <div className={cx('chat')}>
-                        <Chat />
-                    </div>
-                    <div className={cx('image')}>
-                        <ImageUpload />
-                    </div>
-                </ChatProvider>
+        <Router>
+            <div className={cx('app')}>
+                <Routes>
+                    {publishRoutes.map((route, index) => {
+                        const Layout = route.layout === null ? Fragment : DefaultLayout;
+                        const Page = route.component;
+                        return (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                element={
+                                    <Layout>
+                                        <Page />
+                                    </Layout>
+                                }
+                            />
+                        );
+                    })}
+                </Routes>
             </div>
-        </div>
+        </Router>
     );
 }
 
