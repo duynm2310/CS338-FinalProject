@@ -16,7 +16,7 @@ function Camera({ onGetSignal }) {
                 const img_base64 = imageSrc.slice('data:image/jpeg;base64,'.length);
                 const formData = new FormData();
                 formData.append('image', img_base64);
-                fetch('http://127.0.0.1:3001/getsignal', { method: 'POST', body: formData })
+                fetch('http://127.0.0.1:2401/getsignal', { method: 'POST', body: formData })
                     .then((res) => {
                         return res.json();
                     })

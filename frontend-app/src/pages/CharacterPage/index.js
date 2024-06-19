@@ -38,7 +38,7 @@ const characters = [
 function CharacterPage() {
     return (
         <>
-            <div className={cx('header')}>Hãy chọn một ký tự mình muốn tập luôn</div>
+            <div className={cx('header')}>Choose the character you want to start</div>
             <Box sx={{ width: '97%', padding: '20px' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     {characters.map((value, index) => {
