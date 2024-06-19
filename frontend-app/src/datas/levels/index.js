@@ -7,12 +7,18 @@ import logocs from '../imgs/games/logocs.png';
 import flower from '../imgs/games/flower.jpeg';
 import orange from '../imgs/games/orange.jpg';
 import wecode from '../imgs/games/wecode.png';
+import plane from '../imgs/games/plane.jpg';
 
 const levels = [
     {
         keyword: 'BUTTERFLY',
         img: butterfly,
         key: 0,
+    },
+    {
+        keyword: 'PLANE',
+        img: plane,
+        key: 2,
     },
     {
         keyword: 'CELERY',
@@ -32,7 +38,7 @@ const levels = [
     {
         keyword: 'COFFEE',
         img: coffee,
-        key: 4,
+        key: 3,
     },
     {
         keyword: 'COMPUTERSCIENCE',
