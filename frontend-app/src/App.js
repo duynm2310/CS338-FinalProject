@@ -9,7 +9,7 @@ const cx = classNames.bind(styles);
 
 function App() {
     return (
-        <Router>
+        <Router basename='/' >
             <div className={cx('app')}>
                 <Routes>
                     {publishRoutes.map((route, index) => {

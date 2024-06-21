@@ -1,56 +1,29 @@
-import A from '~/datas/imgs/characters/A.png';
-import B from '~/datas/imgs/characters/B.png';
-import C from '~/datas/imgs/characters/C.png';
-import D from '~/datas/imgs/characters/D.png';
-import E from '~/datas/imgs/characters/E.png';
-import F from '~/datas/imgs/characters/F.png';
-import G from '~/datas/imgs/characters/G.png';
-import H from '~/datas/imgs/characters/H.png';
-import I from '~/datas/imgs/characters/I.png';
-import J from '~/datas/imgs/characters/J.png';
-import K from '~/datas/imgs/characters/K.png';
-import L from '~/datas/imgs/characters/L.png';
-import M from '~/datas/imgs/characters/M.png';
-import N from '~/datas/imgs/characters/N.png';
-import O from '~/datas/imgs/characters/O.png';
-import P from '~/datas/imgs/characters/P.png';
-import Q from '~/datas/imgs/characters/Q.png';
-import R from '~/datas/imgs/characters/R.png';
-import S from '~/datas/imgs/characters/S.png';
-import T from '~/datas/imgs/characters/T.png';
-import U from '~/datas/imgs/characters/U.png';
-import V from '~/datas/imgs/characters/V.png';
-import W from '~/datas/imgs/characters/W.png';
-import X from '~/datas/imgs/characters/X.png';
-import Y from '~/datas/imgs/characters/Y.png';
-import Z from '~/datas/imgs/characters/Z.png';
-
 const characters = {
-    A: { img: A, chr: 'A' },
-    B: { img: B, chr: 'B' },
-    C: { img: C, chr: 'C' },
-    D: { img: D, chr: 'D' },
-    E: { img: E, chr: 'E' },
-    F: { img: F, chr: 'F' },
-    G: { img: G, chr: 'G' },
-    H: { img: H, chr: 'H' },
-    I: { img: I, chr: 'I' },
-    J: { img: J, chr: 'J' },
-    K: { img: K, chr: 'K' },
-    L: { img: L, chr: 'L' },
-    M: { img: M, chr: 'M' },
-    N: { img: N, chr: 'N' },
-    O: { img: O, chr: 'O' },
-    P: { img: P, chr: 'P' },
-    Q: { img: Q, chr: 'Q' },
-    R: { img: R, chr: 'R' },
-    S: { img: S, chr: 'S' },
-    T: { img: T, chr: 'T' },
-    U: { img: U, chr: 'U' },
-    V: { img: V, chr: 'V' },
-    W: { img: W, chr: 'W' },
-    X: { img: X, chr: 'X' },
-    Y: { img: Y, chr: 'Y' },
-    Z: { img: Z, chr: 'Z' },
+    A: { img: 'https://lh3.googleusercontent.com/pw/AP1GczP1HwlsChVrHvvtjJj4f4olkxGCzVqtb9T_OJHsloePeb--tMz89QhxTYWSm_SpgvDjUXo2DubCU4KNe0nuRRgpdFT2kmeoCAq3x4Zgkkai8_FEEzk=w2400', chr: 'A' },
+    B: { img: 'https://lh3.googleusercontent.com/pw/AP1GczO-7vnR12sFGDsR0PBFY-TVfrwLqnZ-X8jmbj57bsr0ScOb8OtXaOPz4sIVKrBOdYJ0uBfWNdUN6jYflsjjG6vgmHsZ6s5gV6ahmvU1QDXnQWk0vQo=w2400', chr: 'B' },
+    C: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOxA9TrrCbCzDbITEsjc51-52pG0UZuNlr5CL8gH4lEIp38wApY5yY-8TucHEuG4xPrsSik5Y3BcmMRVHxV1Vli-M-rsUgXchFQCpj651QXRMRx6cw=w2400', chr: 'C' },
+    D: { img: 'https://lh3.googleusercontent.com/pw/AP1GczM4PJTmgtT7wsxNlF6JBwrYPASnS10bXfk-R_MZDSdcn1EY-ImJJJBkFdfR46CM2ukkWp5eMzJzEoINnMKkFS89gqlNmDNuq_4s_98sNAdWSazgDDU=w2400', chr: 'D' },
+    E: { img: 'https://lh3.googleusercontent.com/pw/AP1GczNN3FzbfT84FaNyttdUdIRXv-r-JSXsWlTJ76Lc95FmFt9RCecc-LwKnX5yTppvhDVLCDqaCWlOdzTvJVfs7E-64oyop8RM_12Wd6JgJPtZterUcP0=w2400', chr: 'E' },
+    F: { img: 'https://lh3.googleusercontent.com/pw/AP1GczNxzEegUyuFhgc-pbXMSPTtpqXXsR9Ev6AlpKWpYhjOvHp8ukCs13PuoO_BGNMROkA1v10YzqyH5b7m7OoUVI72ib_I4ITRI9pPHFeiD8qAa8zEX1g=w2400', chr: 'F' },
+    G: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOm-b4t32fZK5r2bJAYa4xkxtB9sc-IaThl9cu1VjcZrCa-bgeBXy7K84ZnfqVKdrFy1z5J27qG-zTItkSDkHCvKU21wrOdZ4bIcwmxcuc3uK2M7y0=w2400', chr: 'G' },
+    H: { img: 'https://lh3.googleusercontent.com/pw/AP1GczM3GItUH1i46DG52VJmjjrE4IIMVGV9ojYTq173BLBoyeZkBaS2X79wb30e_6FnI7jNmcwC0DDlLD5_luEkl4L2WDlh1lyyb-2PMhWaJu4Qidj8rhM=w2400', chr: 'H' },
+    I: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOCd65FYWxjTL8RtoKFN71k0eYqSZP7jPrdZYl4qDWLo3S6u0FfF3sj-Z3D3fpjzHE7R73OK6Z-j0Scu2M8o5LLGBB6FghJJvQpz9H3EP6vS-hE1kY=w2400', chr: 'I' },
+    J: { img: 'https://lh3.googleusercontent.com/pw/AP1GczPcXjSlkoiiwOep1Cvao_m7NxIfgNFt_EIt3Gdhgs9nBA15_EiIst8cykyKdwkMszYQKLh8yIO37dk0uTmcbjQ2PJAHPQpYVseQb5Bxfe0WJz5xMDg=w2400', chr: 'J' },
+    K: { img: 'https://lh3.googleusercontent.com/pw/AP1GczMPTD-LUf5M6cfCNhq1P7ZbvqK98RnL8bfzlrc511TaUqIlZnhgk4GkiP9xZUU4rKQmb42jhV4jjeckUUNJJ2GiVPAunX360QvU3u67e_2m_rIdrkU=w2400', chr: 'K' },
+    L: { img: 'https://lh3.googleusercontent.com/pw/AP1GczP-wLTY-yHhLtPNZ3CmQJCBaj1KEYlX8Oklih4wfj8sK1NX4wuY8nWc1TYrhSmG6DK-YtwE4Gi_eUf-FEN_kFuJ6-fxDOJmGMKEHAfSWIyfSLaiGB8=w2400', chr: 'L' },
+    M: { img: 'https://lh3.googleusercontent.com/pw/AP1GczPEg1TVP-QmaHSK8XPP3Aih76GfL-idUmDUxMA87UfhZDEZ9zm4c4rlmhddO-FqNUoS_fzdEgT4HQ6qXh9rNhJf1UkavY5QA0S1XoPalG7VuU8aVIQ=w2400', chr: 'M' },
+    N: { img: 'https://lh3.googleusercontent.com/pw/AP1GczM0R3_CeFCttdyo6vloEHt0n9IroOXulpsaPUPI4i36LceVwJ363TrFRkbuyFMm8eBaiGQAfRZ8NxkSDDGAEA2Stq5G1IWJoSJkea3F9LEn4YM8JZM=w2400', chr: 'N' },
+    O: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOpNANGqIhPSIQqz8W7cqAnpPDPUFexSVC6asbRLlpCGhJxGgIPYT_vSNZHTPCp1Y7WIAC6Gs7K13K5nDB0l3BmmLj8ssgFBCpUd5cSzLfhi8U73a4=w2400', chr: 'O' },
+    P: { img: 'https://lh3.googleusercontent.com/pw/AP1GczNj5QuC6E-pZQNVhNVUBZYNJ1eCwpxAB1hNB2TDWvsT0P1TBNWicoxKw-QZsDXH2KvsrTJ7zmkuPLl_bvrt6LShxMIsNCxbI3luPECqL575gz-A8z4=w2400', chr: 'P' },
+    Q: { img: 'https://lh3.googleusercontent.com/pw/AP1GczMCodlysL4kX5ZAXRXCbdEsmAKjIKI0YsyhcMDJ48UFVNRkg4Z9i7cTtKBuqmfpStaKeUNYTNATOTib4oMkX2iArqoIFZIbGTEU9a2kQwkIfvtmZA8=w2400', chr: 'Q' },
+    R: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOY3_JQuH8dcoUIDVPHR8jdl8CDQFbbHSiILAcjB6M6VSKLqVxYaigAf7JZJXIcxmaMXvmmOQzOpo3f57eBPHBTRRcQjz049hEqkG6JFMYompMxi3I=w2400', chr: 'R' },
+    S: { img: 'https://lh3.googleusercontent.com/pw/AP1GczPrqlEWbHg7C5Uo9Ix3YX2NTzshgB56oQ04v8UsR1GD3FkShuVDUvX0uOYqiC-lzv1S1k6iNO0iefFc-JvIrKuAHWpOubkPUL9INZFuMRBIqTiqzMU=w2400', chr: 'S' },
+    T: { img: 'https://lh3.googleusercontent.com/pw/AP1GczORvxoyIgWeuVm8YwKtc21Je7aed6IjE1GuDr_3y1byK10MwbhchO4zISVhj4pUYksZVYdC-r3-hlH3YBoxZJAmg6wbxmDSdsYortoASxmLgZ2DkBI=w2400', chr: 'T' },
+    U: { img: 'https://lh3.googleusercontent.com/pw/AP1GczP4sclFR2b6XUHcLYT3VuhDbczz5nL_tdVdr-wTaP26k5plSdO6kX1DQsWp5MY9wrozecIc-0RKEhcMyPF49VXO3qhWLVRqR7au46i0faEIPulaaOo=w2400', chr: 'U' },
+    V: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOfiqmo_CmLaj8QEyWSDz0GGe5PoX51p4aEAfLs0wPW-G9xrsq5RhRMgCeF48s23KzKEOMqbHsb1Q0yIjO8IAcAfwclMf3x1SoPQMb-NKyp3Qf4mS8=w2400', chr: 'V' },
+    W: { img: 'https://lh3.googleusercontent.com/pw/AP1GczMdVMD1OUAqx6mQ_4Bhfs-1WeHOfsbXx83jqjpOqH0LntlYxzVx4g2Z4IdcsFz7XIWEgM7LJ9CC4WwBD8UBLHQd3Pu-ZH1NEUARFbPycXGx6AUK9Gw=w2400', chr: 'W' },
+    X: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOujlbA_W9J-Hhe46f1WeFi_Y1xbk1THw6-7MxcUwx3-JbUKgVrWzI-2_Ub8MfDd_34-vwPP6FM_CJoUbX8iZvPm4MqVWuerfC7M-PgaQDZMMJVT_c=w2400', chr: 'X' },
+    Y: { img: 'https://lh3.googleusercontent.com/pw/AP1GczNfKwxplLr2jrCwqAgcEzC_H-nc4CQiUMiZfbDbYByB9d_yMFMJ-aKCqRiohN_hm0UX0wzZXqqgjtYS1w2Cc4nw58CWD4YFPENTHRBS-ffnnuoS9Do=w2400', chr: 'Y' },
+    Z: { img: 'https://lh3.googleusercontent.com/pw/AP1GczOZ2PlU6fWHMcE7qHBbyuk4EpLIuw9tTHsStCr4SUBVN2tTvT6cw8Jja4cM9rzyKHaPXbMXDv4yQWudpOajdprCTIFaBNC_9o2mfxhvghzDdU7ZaAY=w2400', chr: 'Z' },
 };
 export default characters;

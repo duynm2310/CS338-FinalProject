@@ -1,0 +1,18 @@
+version: '1.0.0' 
+services:
+  backend-app:
+    build: 
+      context: ./backend-app
+      dockerfile: Dockerfile
+    ports:
+      - 2401:2401
+    command: python3 backend.py
+  frontend-app:
+    build: 
+      context: ./frontend-app
+      dockerfile: Dockerfile
+    ports:
+      - 2402:80
+    volumes:
+      - ./frontend-app/build:/usr/share/nginx/html
+      - ./frontend-app/nginx/nginx.conf:/etc/nginx/conf.d/default.conf

@@ -1,12 +1,12 @@
 import torch
 import torchvision.transforms as transforms
 import numpy as np
-import cv2
+# import cv2
 import mediapipe as mp
 from torch import nn
 from efficientnet_pytorch import EfficientNet
 
-mp_hands = mp.solutions.hands
+# mp_hands = mp.solutions.hands
 
 threshold = 0.75
 
@@ -27,14 +27,14 @@ def create_model():
     model.eval()
     return model
 
-def check_hands(img):
-    frame = np.array(img)
-    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    frame_rgb = cv2.flip(frame_rgb, 1)
-    frame_rgb.flags.writeable = False
-    with mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.8) as hands:
-        results = hands.process(frame_rgb)
-    return results.multi_hand_landmarks
+# def check_hands(img):
+#     frame = np.array(img)
+#     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+#     frame_rgb = cv2.flip(frame_rgb, 1)
+#     frame_rgb.flags.writeable = False
+#     with mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.8) as hands:
+#         results = hands.process(frame_rgb)
+#     return results.multi_hand_landmarks
 
 
 def predict(model, img):
